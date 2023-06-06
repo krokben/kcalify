@@ -6,8 +6,15 @@ const Header = () => (
       <Link href="/">kcalify</Link>
     </h2>
     <ul className="flex place-content-between gap-8 list-none uppercase">
-      <Link href="/today">Today</Link>
-      <Link href="/about">About</Link>
+      <li>
+        <Link href="/today">Today</Link>
+      </li>
+      <li>
+        <Link href="/foods">Foods</Link>
+      </li>
+      <li>
+        <Link href="/about">About</Link>
+      </li>
     </ul>
   </nav>
 );
